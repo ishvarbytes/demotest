@@ -1,0 +1,143 @@
+/* Reset Css */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{text-decoration:none;outline:0;margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent;color:#ecac22;transition:all 0.5s ease 0s;}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #313231;margin:0 auto; padding:0}
+
+.clearfix:after , ul:after , ol:after ,  .full_row:after
+{content:"";display:block;clear:both;visibility:hidden;line-height:0;height:0}html[xmlns] .clearfix{display:block}* html .clearfix{height:1%}
+
+img {-ms-interpolation-mode: bicubic;height: auto; vertical-align: middle;transition:all 0.5s ease 0s;}
+.ie8 img {height: auto; width: auto\9;}
+.ie8 img.size-large {max-width: 60%; width: auto;}
+:hover{transition:all 0.5s ease 0s;}
+
+ul{list-style:none; margin:0; padding:0;}
+li{list-style:none;}
+
+#wp-toolbar ul:after{content:none}
+
+.last_li , .last{margin-right:0 !important; padding-right:0 !important}
+.first_li, .first{margin-left:0 !important; padding-left:0 !important}
+
+/*************************** Font Face ***************************/
+
+
+
+/* ================================= Reset Css ================================= */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0;}
+::-webkit-input-placeholder {color: #c2c2c2}
+:-moz-placeholder {color: #c2c2c2}
+.form-control:-moz-placeholder {color: #c2c2c2}
+::-moz-placeholder {color:#c2c2c2}
+.form-control::-moz-placeholder {color:#c2c2c2}
+:-ms-input-placeholder {color: #c2c2c2;}
+
+button::-moz-focus-inner {border: 0}
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
+input[type=number] {-moz-appearance:textfield}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0}
+
+/*input[type=submit]{padding:18px 30px; font-weight:bold; color:#fff; display:block; }*/
+input[type=submit] , input[type=button]{cursor:pointer; border:0}
+input:focus{outline:none;}
+
+/* Contact Form */
+.form-group{ background:#f2f2f2;border: 1px solid #d6d5d2; padding:0 20px; position:relative}
+
+input[type="text"], input[type="tel"], input[type="password"], input[type="date"], input[type="email"], input[type="number"], textarea{border-radius:0; color: #c2c2c2; font-size: 18px; font-weight: 400; line-height: 26px; width:60%; height:50px; padding:5px 15px; box-shadow:none; -webkit-appearance:none; display:inline-block;}
+
+input[type="text"]:focus, input[type="tel"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, textarea:focus {background:#f3f3f3; color: #c2c2c2;}
+
+input:required{box-shadow:none}
+/*input:required:focus{background-color: rgba(223, 73, 73, 0.2); border: 1px solid #df4949; box-shadow:none} */
+
+*{-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+
+/************************************************ Global Styles #X ***************************************************/
+
+/* Gobal #GAB */
+.x:before 
+{position:absolute; content:''}
+
+/* Vertical Middle */
+.x
+{content: ''; display: inline-block; height: 100%; vertical-align: middle; margin-right: -0.25em}
+
+.x
+{display: inline-block; vertical-align: middle}
+
+
+/* HR Rules */
+hr{}
+
+/* Image Alignment */
+.alignnone , a img.alignnone {margin: 5px 0 50px}
+.aligncenter, div.aligncenter {display: block; margin: 5px auto 25px auto}
+.alignright , a img.alignright{float:right; margin: 5px 0 45px 35px}
+.alignleft , a img.alignleft {float: left; margin: 5px 35px 45px 0}
+a img.aligncenter {display: block;  margin-left: auto; margin-right: auto}
+
+/* TypoGraphy */
+/*
+
+
+*/
+
+h1 , h2 , h3 , h4 , h5 , h6{}
+
+h1{font-size: 60px;font-weight: 400;line-height: 55px;text-transform: uppercase;color: #414141; margin-bottom:20px}
+h2{color: #3375c7;font-size: 60px;font-weight: 400;line-height: 45px;text-transform: uppercase;}
+h3{font-weight: 400;color: #414141;font-size: 50px;line-height: 40px;text-transform: uppercase;}
+h4{color: #3375c7;font-size: 32px;font-weight: 400;line-height: 30px;}
+h5{font-weight: 400;line-height: 28px;font-size: 21px;}
+h6{}
+
+p{color: #343434;font-size: 18px;font-weight: 400; margin-bottom:20px; line-height: 28px;}
+
+p , .content_row ul li, .content_row ol li{ font-size: 21px;color: #414141;font-weight: 400;line-height: 31px;}
+
+p:last-child{margin-bottom:0}
+p.intro{}
+
+a{ cursor:pointer}
+p a{ text-decoration:none;}
+p strong{font-weight:900}
+p em{font-style:italic}
+
+p a:hover, p a:active, p a:focus{text-decoration:underline; }
+
+.content_row ul , .content_row ol{padding-bottom:10px}
+.content_row ul li, .content_row ol li{ position:relative; color:#343434}
+
+.content_row ul li{padding-left:12px}
+.content_row ul li:before {content: "";left: 0; position: absolute;font-size: 21px;line-height: 32px;font-family: Ionicons;font-weight: 500;}
+
+.content_row ul ul , .content_row ol ul , .content_row ol ol{padding:5px 0}
+
+.content_row ol{counter-reset: section}
+.content_row ol li{padding-left:40px}
+
+.content_row ol > li:before {color:#343434; content:counter(section, decimal) "."; counter-increment:section; padding-right:5px; font-size:18px; position:absolute; left:0}
+
+.content_row ol ul li{padding-left:20px}
+/*.content_row ol ol li{list-style:lower-alpha outside; padding-left:30px; margin-left:20px}*/
+
+/*.content_row ol ol li:before{content:none}*/
+.content_row ol ol li::before {  content: counter(list, lower-alpha) ") ";  counter-increment: list;  left: 0;  position: absolute;}
+.content_row ol ol li{padding-left:30px}
+.content_row ol ol {  counter-reset: list;}
+
+/* Remove ListDots */
+a:focus, a:hover{outline:none; text-decoration:none; color:#ec8f22}
+
+
+/* =================================  Mountain Custom CSS #AB ================================= */	
+
+body{background:#fafafa; line-height: 1; color: #414141; font-family: 'Source Sans Pro', sans-serif; font-size:18px }
+
+.container{max-width:1430px; width:100%; padding-left:60px; padding-right:60px}
+.full_row{width:100%; float:none; margin:0 auto}
+.small_container{max-width:1078px; margin:0 auto; float:none; width:100%; padding:0 60px}
