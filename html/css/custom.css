@@ -100,12 +100,12 @@ p{color: #343434;font-size: 18px;font-weight: 400; margin-bottom:20px; line-heig
 p , .content_row ul li, .content_row ol li{ font-size: 21px;color: #414141;font-weight: 400;line-height: 31px;}
 
 p:last-child{margin-bottom:0}
-p.intro{}
 
 a{ cursor:pointer}
 p a{ text-decoration:none;}
 p strong{font-weight:900}
 p em{font-style:italic}
+p b{font-weight: 700}
 
 p a:hover, p a:active, p a:focus{text-decoration:underline; }
 

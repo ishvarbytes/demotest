@@ -126,6 +126,8 @@ jQuery(document).ready(function () {
 
     /************************************ open box *************************************************/
 
+    setTimeout(function () {
+
     var $el, $ps, totalHeight, $p;
     jQuery(".collaps_box .expand").click(function (e) {
         jQuery(this).parents('.expandermain').addClass("open_box");
@@ -144,7 +146,7 @@ jQuery(document).ready(function () {
         $el.next().fadeIn();
         return false;
     });
-
+    }, 3000);
 
 
 
