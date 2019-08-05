@@ -125,7 +125,6 @@ jQuery(document).ready(function () {
 
 
     /************************************ open box *************************************************/
-
     setTimeout(function () {
 
     var $el, $ps, totalHeight, $p;

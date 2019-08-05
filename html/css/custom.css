@@ -116,7 +116,6 @@ p a:hover, p a:active, p a:focus{text-decoration:underline; }
 .content_row ul li:before {content: "";left: 0; position: absolute;font-size: 21px;line-height: 32px;font-family: Ionicons;font-weight: 500;}
 
 .content_row ul ul , .content_row ol ul , .content_row ol ol{padding:5px 0}
-
 .content_row ol{counter-reset: section}
 .content_row ol li{padding-left:40px}
 
